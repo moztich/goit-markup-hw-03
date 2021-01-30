@@ -182,8 +182,8 @@ header {
 /* ============== перечисление особенностей ============= */
 
 .feature-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .feature-list {
@@ -215,8 +215,8 @@ header {
 /* ============== чем мы занимаемся с картинками =============  */
 
 .index {
-  margin-bottom: 94px;
-  height: 386px;
+  padding-bottom: 94px;
+  height: 480px;
 }
 
 .index-heading {
@@ -344,7 +344,7 @@ header {
 /* ============== список проетов =============  */
 
 .project-element {
-  margin-bottom: 149px;
+  padding-bottom: 149px;
 }
 
 .portfolio-button {
