@@ -181,11 +181,14 @@ header {
 
 /* ============== перечисление особенностей ============= */
 
+.feature-section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
 .feature-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .feature-item {
@@ -222,7 +225,7 @@ header {
   font-size: 36px;
   line-height: 1.1666;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -244,8 +247,8 @@ header {
   font-size: 36px;
   line-height: 1.1666;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
   text-align: center;
+  padding-bottom: 50px;
   padding-top: 94px;
 }
 
@@ -261,7 +264,6 @@ header {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 94px;
 }
 
 .crewman {
@@ -341,6 +343,10 @@ header {
 
 /* ============== список проетов =============  */
 
+.project-element {
+  margin-bottom: 149px;
+}
+
 .portfolio-button {
   display: flex;
   height: 38px;
@@ -379,7 +385,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   padding-top: 88px;
-  padding-bottom: 149px;
 }
 
 .project-element-item {
